@@ -1,0 +1,41 @@
+/*!
+=========================================================
+* Material Tailwind Kit React - v1.1.0
+=========================================================
+* Product Page: https://www.creative-tim.com/product/material-tailwind-kit-react
+* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/material-tailwind-kit-react/blob/main/LICENSE.md)
+* Coded by Creative Tim
+=========================================================
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "@material-tailwind/react/tailwind.css";
+
+/* //fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+
+@layer utilities {
+  .-translate-x-1\/2 {
+    --tw-translate-x: -50% !important;
+  }
+}
+
+:root {
+  --font-Montserrat: "Montserrat", sans-serif;
+  --fancy-font: "Kalam", cursive;
+}
+
+.isoTopContainer {
+  margin: auto;
+  width: 70%;
+}
+@media screen and (max-width: 768px) {
+  .isoTopContainer {
+    margin: auto;
+    width: 100%;
+  }
+}
